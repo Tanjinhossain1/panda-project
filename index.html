@@ -16,7 +16,7 @@
        Navbigation bar
  ------------------------>
 <header>
-    <nav class="navbar container navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar container navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
               <img src="images/logo.png" alt="">
@@ -30,13 +30,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#Shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpack  </a>
+                <a class="nav-link" href="#Backpack">Backpack  </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             
             </ul>
@@ -142,7 +142,7 @@
  ----------------------------->
  <section class="container bg-light mb-5">
     
-         <div class="d-flex justify-content-between align-items-center ">
+         <div class="d-flex justify-content-between align-items-center " id="Shoes">
             <h1>Shoes</h1>
             <h4 class="text-warning">See All</h4>
          </div>
@@ -217,7 +217,7 @@
      <!-------------------------------- 
          backpack section are heare 
      ---------------------------------->
-     <div class="d-flex justify-content-between align-items-center   mt-5 ">
+     <div class="d-flex justify-content-between align-items-center   mt-5 " id="Backpack">
         <h1>Backpack</h1>
         <h4 class="text-warning mt-5">See All</h4>
      </div>
@@ -289,9 +289,27 @@
            </div>
          </div>
  </section>
+ <!------------------------
+      input section form 
+ -------------------------->
+ <div class="container bg-info mt-5 p-5 d-flex justify-content-center align-items-center" id="subscribe">
+    <form>
+        <fieldset >
+          <legend><h3>LET'S STAY IN TOUCH</h3></legend>
+          <div class="p-0">
+            <label for="" class="form-label"><p>Get updates on sales, specials and more</p></label>
+            <input type="text"  class="form-control " placeholder=" ">
+          </div>
+          
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </fieldset>
+      </form>
+ </div>
  </main>
 
-
+<footer class="mt-5">
+    <p class="d-flex justify-content-center">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+</footer>
 
 
 
